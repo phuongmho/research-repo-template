@@ -1,0 +1,83 @@
+# Data payloads: retain only the supplied documentation/placeholders.
+/raw_data/**
+!/raw_data/README.md
+!/raw_data/.gitkeep
+/processed_data/**
+!/processed_data/README.md
+!/processed_data/.gitkeep
+!/processed_data/for_structural_model/
+!/processed_data/for_structural_model/README.md
+!/processed_data/for_structural_model/.gitkeep
+
+# Machine-specific configuration and credentials; examples may be committed.
+.env
+.env.*
+!.env.example
+!.env.*.example
+config.local.*
+!config.local.example.*
+
+# Local environments, caches, and packaging products.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+/build/
+/dist/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
+*.smcl
+
+# Compiled paper PDFs; generated figures belong in output/paper_assets/.
+/papers/**/*.pdf
+
+# LaTeX build files in papers/ and research notes, including nested folders.
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Editors and operating systems.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# External content: preserve folder structure through .gitkeep placeholders only.
+# Keep these rules last so earlier exceptions cannot include other files.
+/output/**
+!/output/**/
+!/output/**/.gitkeep
+/literature/**
+!/literature/**/
+!/literature/**/.gitkeep
+/overleaf/**
+!/overleaf/**/
+!/overleaf/**/.gitkeep
