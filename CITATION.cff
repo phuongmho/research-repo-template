@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this template to structure your research repository, please cite it as below."
+authors:
+  - family-names: "Ho"
+    given-names: "Phuong"
+    affiliation: "Massachusetts Institute of Technology"
+    email: "phuongho@mit.edu"
+title: "Research Repository Template"
+abstract: "A reusable GitHub repository template for reproducible empirical and structural research, separating task-organized source code, raw and derived data, research documentation, and mirrored outputs, with built-in rules for Dropbox/Overleaf workflows and AI coding agents. Author website: https://phuongmho.github.io/"
+type: software
+version: 1.0.0
+date-released: 2026-10-22
+url: "https://github.com/phuongmho/research-repo-template"
+repository-code: "https://github.com/phuongmho/research-repo-template"
+license: MIT
+keywords:
+  - "reproducible-research"
+  - "project-structure"
+  - "research-template"
+  - "repo-template"
+  - "economics"
